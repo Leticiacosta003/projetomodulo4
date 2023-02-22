@@ -1,6 +1,18 @@
 # PROJETO EM GRUPO MÓDULO 4
+ 
+#GRUPO 4 
+- Gustava
+- Isadora
+- Letícia
+- Rafaela 
+- Regiane
+- Yuri.
 
-##PERGUNTAS!
+
+
+
+
+#PERGUNTAS!
 
 > Qual personagem estrelou na maior quantidade de episódios?
 - Eddard "Ned" Stark
