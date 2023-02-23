@@ -52,8 +52,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 
 - DASHBOARD 
-⇨ ![text](/
-
+⇨ ![texto](/dashboard.png)
 
 
 
