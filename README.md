@@ -20,22 +20,30 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 PERGUNTAS!
 
-> Qual personagem estrelou na maior quantidade de episódios?
-- Eddard "Ned" Stark
-- Ator: Sean  Bean
+> Quais personagens estrelaram na temporada 1?
+- Eddard "Ned" Stark (ator: Sean Bean)
+- Nicolaj Coster 
+- Mark Addy
 
-> QuaL episódio com a maior avaliação dos critico?
-- 1° lugar ( The  Winds of Winter) temporada 6- episódio 10,.
-
+> Qual episódio com a maior avaliação dos critico?
+- 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 
 > Qual a quantidade de episódios por temporadas?
-- 73 episódios
+- Temporada 1 - 10 episódios. 
+- Temporada 2 - 10 episódios. 
+- Temporada 3 - 10 episódios. 
+- Temporada 4 - 10 episódios. 
+- Temporada 5 - 10 episódios. 
+- Temporada 6 - 10 episódios. 
+- Temporada 7 - 07 episódios. 
+- Temporada 8 - 06 episódios. 
+
 
 > Qual foi a melhor temporada e a pior?
 - A melhor foi a temporada 4 nota 95,5.
 - A pior foi a temporada 8 nota 64,5.
 
 > Qual episodio tem mais visibilidade?
-- "The Bells," o quinto da oitava temporada e penúltimo episódio de Game of Thrones, foi o mais visto da história da série.
+- "The Iron Throne" 13.1 de pontuação.
 
 > Qual episódios com maior duração?
 - 8° temporada -  episódio 3 , duração 1h e 22min .
