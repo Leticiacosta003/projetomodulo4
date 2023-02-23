@@ -25,11 +25,11 @@ PERGUNTAS!
 > Nicolaj Coster 
 > Mark Addy
 
-- Qual episódio com a maior avaliação dos critico?
+⇨ Qual episódio com a maior avaliação dos critico?
 > 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 
 
 
-- Qual a quantidade de episódios por temporadas?
+⇨ Qual a quantidade de episódios por temporadas?
 > Temporada 1 - 10 episódios. 
 > Temporada 2 - 10 episódios. 
 > Temporada 3 - 10 episódios. 
@@ -40,14 +40,14 @@ PERGUNTAS!
 > Temporada 8 - 06 episódios. 
 
 
-- Qual foi a melhor temporada e a pior?
+⇨ Qual foi a melhor temporada e a pior?
 > A melhor foi a temporada 4 nota 95,5.
 > A pior foi a temporada 8 nota 64,5.
 
-- Qual episodio tem mais visibilidade?
+⇨ Qual episodio tem mais visibilidade?
 > "The Iron Throne" 13.1 de pontuação.
 
-- Qual episódios com maior duração?
+⇨ Qual episódios com maior duração?
 > 8° temporada -  episódio 3 , duração 1h e 22min .
 
 
