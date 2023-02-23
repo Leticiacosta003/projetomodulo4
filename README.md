@@ -38,9 +38,9 @@ PERGUNTAS!
 - Temporada 8 - 06 episódios. 
 
 
-> Qual foi a melhor temporada e a pior?
-- A melhor foi a temporada 4 nota 95,5.
-- A pior foi a temporada 8 nota 64,5.
+- Qual foi a melhor temporada e a pior?
+> A melhor foi a temporada 4 nota 95,5.
+> A pior foi a temporada 8 nota 64,5.
 
 > Qual episodio tem mais visibilidade?
 - "The Iron Throne" 13.1 de pontuação.
