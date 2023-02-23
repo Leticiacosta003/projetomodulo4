@@ -20,33 +20,35 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 PERGUNTAS!
 
-> Quais personagens estrelaram na temporada 1?
-- Eddard "Ned" Stark (ator: Sean Bean)
-- Nicolaj Coster 
-- Mark Addy
+- Quais personagens estrelaram na temporada 1?
+> Eddard "Ned" Stark (ator: Sean Bean)
+> Nicolaj Coster 
+> Mark Addy
 
-> Qual episódio com a maior avaliação dos critico?
-- 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 
-> Qual a quantidade de episódios por temporadas?
-- Temporada 1 - 10 episódios. 
-- Temporada 2 - 10 episódios. 
-- Temporada 3 - 10 episódios. 
-- Temporada 4 - 10 episódios. 
-- Temporada 5 - 10 episódios. 
-- Temporada 6 - 10 episódios. 
-- Temporada 7 - 07 episódios. 
-- Temporada 8 - 06 episódios. 
+- Qual episódio com a maior avaliação dos critico?
+> 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 
+
+
+- Qual a quantidade de episódios por temporadas?
+> Temporada 1 - 10 episódios. 
+> Temporada 2 - 10 episódios. 
+> Temporada 3 - 10 episódios. 
+> Temporada 4 - 10 episódios. 
+> Temporada 5 - 10 episódios. 
+> Temporada 6 - 10 episódios. 
+> Temporada 7 - 07 episódios. 
+> Temporada 8 - 06 episódios. 
 
 
 - Qual foi a melhor temporada e a pior?
 > A melhor foi a temporada 4 nota 95,5.
 > A pior foi a temporada 8 nota 64,5.
 
-> Qual episodio tem mais visibilidade?
-- "The Iron Throne" 13.1 de pontuação.
+- Qual episodio tem mais visibilidade?
+> "The Iron Throne" 13.1 de pontuação.
 
-> Qual episódios com maior duração?
-- 8° temporada -  episódio 3 , duração 1h e 22min .
+- Qual episódios com maior duração?
+> 8° temporada -  episódio 3 , duração 1h e 22min .
 
 
 
