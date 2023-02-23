@@ -51,6 +51,9 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 > 8° temporada -  episódio 3 , duração 1h e 22min .
 
 
+- DASHBOARD 
+⇨ ![text](/
+
 
 
 
