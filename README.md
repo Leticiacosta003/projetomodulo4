@@ -1,12 +1,12 @@
 # PROJETO EM GRUPO MÓDULO 4
  
 GRUPO 4 
-- Gustava
-- Isadora
-- Letícia
-- Rafaela 
-- Regiane
-- Yuri.
+- Gustavo Resende
+- Isadora Grigório
+- Letícia Costa
+- Rafaela Guimarães
+- Regiane Marinho
+- Yuri Rodrigues
 
 
 
