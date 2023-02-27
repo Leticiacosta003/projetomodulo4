@@ -17,7 +17,7 @@ CONTEXTO ⇨ Temos um problema e precisaremos da sua ajuda para resolver! Acumul
 
 
 A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs que apresenta dados sobre os episódios e temporadas da série Game of Thrones. Durante o Brainstorm sobre perguntas que podem ser respondidas pelos dados selecionamos as seguintes perguntas:
-
+---------------
 - PERGUNTAS!
 
 ⇨ Quais personagens estrelaram na temporada 1?
@@ -33,7 +33,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 	FROM episodios
     WHERE Season = 1;
 --------------------------
- <br/> <br/>
+ <br/>
 
 ⇨ Qual episódio com a maior avaliação dos critico?
 > 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 <br/> <br/>
@@ -56,7 +56,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 > Temporada 8 - 06 episódios. <br/> <br/>
 > 	SELECT DISTINCT Season AS Tempora, COUNT(Episode) AS Quantidades_de_episódios FROM episodios GROUP BY Season;
 ---------------------------
- <br/> <br/>
+ <br/>
 
 ⇨ Qual foi a melhor temporada e a pior?
 > A melhor foi a temporada 4 nota 95,5.
@@ -75,7 +75,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     FROM episodios
     WHERE Rating = (SELECT MIN(Rating) FROM episodios);
 -------------------------
- <br/> <br/>
+ <br/>
 
 ⇨ Qual episodio tem mais visibilidade?
 > "The Iron Throne" 13.1 de pontuação. <br/> <br/>
@@ -86,7 +86,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     FROM episodios
     WHERE Views = (SELECT MAX(Views) FROM episodios);
 --------------------------
- <br/> <br/>
+ <br/> 
 
 ⇨ Qual episódios com maior duração?
 > 8° temporada -  episódio 3 , duração 1h e 22min <br/> <br/>
