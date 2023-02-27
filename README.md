@@ -23,7 +23,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 ⇨ Quais personagens estrelaram na temporada 1?
 > Eddard "Ned" Stark (ator: Sean Bean)
 > Nicolaj Coster 
-> Mark Addy
+> Mark Addy <br/>
 > 	SELECT Season AS Temporada, 
     Episode AS Episodios, 
     Title AS Titulo, 
@@ -36,7 +36,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 
 ⇨ Qual episódio com a maior avaliação dos critico?
-> 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 
+> 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 <br/>
 > 	SELECT Season AS Temporada, 
 	Episode AS Episódio, 
 	Title AS Título, 
@@ -53,20 +53,20 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 > Temporada 5 - 10 episódios. 
 > Temporada 6 - 10 episódios. 
 > Temporada 7 - 07 episódios. 
-> Temporada 8 - 06 episódios. 
+> Temporada 8 - 06 episódios. <br/>
 > 	SELECT DISTINCT Season AS Tempora, COUNT(Episode) AS Quantidades_de_episódios FROM episodios GROUP BY Season;
 
 ⇨ Qual foi a melhor temporada e a pior?
 > A melhor foi a temporada 4 nota 95,5.
-> A pior foi a temporada 8 nota 64,5.
-> 	SELECT Season AS Temporada, 
+> A pior foi a temporada 8 nota 64,5.<br/>
+ 	SELECT Season AS Temporada, 
 	Episode AS Episódio, 
 	Title AS Título, 
 	Rating AS Avaliação
     FROM episodios
     WHERE Rating = (SELECT MAX(Rating) FROM episodios);
     
-	SELECT Season AS Temporada, 
+>	SELECT Season AS Temporada, 
 	Episode AS Episódio, 
 	Title AS Título, 
 	Rating AS Avaliação
@@ -76,7 +76,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 
 ⇨ Qual episodio tem mais visibilidade?
-> "The Iron Throne" 13.1 de pontuação.
+> "The Iron Throne" 13.1 de pontuação. <br/>
 > SELECT Season AS Temporada,
     Episode AS Episódio,
     Title AS Título,
@@ -85,7 +85,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     WHERE Views = (SELECT MAX(Views) FROM episodios);
 
 ⇨ Qual episódios com maior duração?
-> 8° temporada -  episódio 3 , duração 1h e 22min .
+> 8° temporada -  episódio 3 , duração 1h e 22min <br/>
 > SELECT Season AS Temporada, 
     Episode AS Episódio, 
     Title AS Título, 
