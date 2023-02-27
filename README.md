@@ -26,25 +26,25 @@ CONTEXTO ⇨ Temos um problema e precisaremos da sua ajuda para resolver! Acumul
 > Eddard "Ned" Stark (ator: Sean Bean)
 > Nicolaj Coster 
 > Mark Addy <br/> <br/>
-> 	SELECT Season AS Temporada, 
-    Episode AS Episodios, 
-    Title AS Titulo, 
-    Star_1 AS Ator_Atriz, 
-    Star_2 AS Ator_Atriz, 
-    Star_3 AS Ator_Atriz
-	FROM episodios
-    WHERE Season = 1;
+> 	SELECT Season AS Temporada, <br/>
+    Episode AS Episodios, <br/>
+    Title AS Titulo, <br/>
+    Star_1 AS Ator_Atriz, <br/>
+    Star_2 AS Ator_Atriz, <br/>
+    Star_3 AS Ator_Atriz <br/>
+	FROM episodios <br/>
+    WHERE Season = 1; <br/>
 --------------------------
  <br/>
 
 ⇨ Qual episódio com a maior avaliação dos critico?
 > 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 <br/> <br/>
-> 	SELECT Season AS Temporada, 
-	Episode AS Episódio, 
-	Title AS Título, 
-	Critics_reviews AS Avaliação
-    FROM episodios
-    WHERE Critics_reviews = (SELECT MAX(Critics_reviews) FROM episodios);
+> 	SELECT Season AS Temporada, <br/>
+	Episode AS Episódio, <br/>
+	Title AS Título, <br/>
+	Critics_reviews AS Avaliação <br/>
+    FROM episodios <br/>
+    WHERE Critics_reviews = (SELECT MAX(Critics_reviews) FROM episodios); <br/>
 -----------------------
  <br/> <br/>
 ⇨ Qual a quantidade de episódios por temporadas?
@@ -63,41 +63,41 @@ CONTEXTO ⇨ Temos um problema e precisaremos da sua ajuda para resolver! Acumul
 ⇨ Qual foi a melhor temporada e a pior?
 > A melhor foi a temporada 4 nota 95,5.
 > A pior foi a temporada 8 nota 64,5.<br/> <br/>
->	SELECT Season AS Temporada, 
-	Episode AS Episódio, 
-	Title AS Título, 
-	Rating AS Avaliação
-    FROM episodios
-    WHERE Rating = (SELECT MAX(Rating) FROM episodios);
+>	SELECT Season AS Temporada, <br/>
+	Episode AS Episódio, <br/>
+	Title AS Título, <br/>
+	Rating AS Avaliação <br/>
+    FROM episodios <br/>
+    WHERE Rating = (SELECT MAX(Rating) FROM episodios); <br/>
     
->	SELECT Season AS Temporada, 
-	Episode AS Episódio, 
-	Title AS Título, 
-	Rating AS Avaliação
-    FROM episodios
-    WHERE Rating = (SELECT MIN(Rating) FROM episodios);
+>	SELECT Season AS Temporada, <br/>
+	Episode AS Episódio, <br/>
+	Title AS Título, <br/>
+	Rating AS Avaliação <br/>
+    FROM episodios <br/>
+    WHERE Rating = (SELECT MIN(Rating) FROM episodios); <br/>
 -------------------------
  <br/>
 
 ⇨ Qual episodio tem mais visibilidade?
 > "The Iron Throne" 13.1 de pontuação. <br/> <br/>
-> SELECT Season AS Temporada,
-    Episode AS Episódio,
-    Title AS Título,
-    Views AS Visualizações
-    FROM episodios
-    WHERE Views = (SELECT MAX(Views) FROM episodios);
+> SELECT Season AS Temporada, <br/>
+    Episode AS Episódio, <br/>
+    Title AS Título, <br/>
+    Views AS Visualizações <br/>
+    FROM episodios <br/>
+    WHERE Views = (SELECT MAX(Views) FROM episodios); <br/>
 --------------------------
  <br/> 
 
 ⇨ Qual episódios com maior duração?
 > 8° temporada -  episódio 3 , duração 1h e 22min <br/> <br/>
-> SELECT Season AS Temporada, 
-    Episode AS Episódio, 
-    Title AS Título, 
-    Duration as Duração 
-    FROM episodios 
-    WHERE Duration = (SELECT MAX(Duration) FROM episodios);
+> SELECT Season AS Temporada, <br/>
+    Episode AS Episódio, <br/>
+    Title AS Título, <br/>
+    Duration as Duração <br/>
+    FROM episodios <br/>
+    WHERE Duration = (SELECT MAX(Duration) FROM episodios); <br/>
 
 -----------------------
 - DASHBOARD  <br/> <br/>
