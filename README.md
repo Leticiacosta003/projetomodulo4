@@ -33,7 +33,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 	FROM episodios
     WHERE Season = 1;
 
-
+ <br/> <br/>
 
 ⇨ Qual episódio com a maior avaliação dos critico?
 > 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 <br/> <br/>
@@ -44,7 +44,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     FROM episodios
     WHERE Critics_reviews = (SELECT MAX(Critics_reviews) FROM episodios);
 
-
+ <br/> <br/>
 ⇨ Qual a quantidade de episódios por temporadas?
 > Temporada 1 - 10 episódios.  <br/>
 > Temporada 2 - 10 episódios.  <br/>
@@ -55,7 +55,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 > Temporada 7 - 07 episódios.  <br/>
 > Temporada 8 - 06 episódios. <br/> <br/>
 > 	SELECT DISTINCT Season AS Tempora, COUNT(Episode) AS Quantidades_de_episódios FROM episodios GROUP BY Season;
-
+ <br/> <br/>
 ⇨ Qual foi a melhor temporada e a pior?
 > A melhor foi a temporada 4 nota 95,5.
 > A pior foi a temporada 8 nota 64,5.<br/> <br/>
@@ -73,7 +73,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     FROM episodios
     WHERE Rating = (SELECT MIN(Rating) FROM episodios);
 
-
+ <br/> <br/>
 
 ⇨ Qual episodio tem mais visibilidade?
 > "The Iron Throne" 13.1 de pontuação. <br/> <br/>
@@ -83,7 +83,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     Views AS Visualizações
     FROM episodios
     WHERE Views = (SELECT MAX(Views) FROM episodios);
-
+ <br/> <br/>
 ⇨ Qual episódios com maior duração?
 > 8° temporada -  episódio 3 , duração 1h e 22min <br/> <br/>
 > SELECT Season AS Temporada, 
