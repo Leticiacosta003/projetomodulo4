@@ -56,7 +56,8 @@ CONTEXTO ⇨ Temos um problema e precisaremos da sua ajuda para resolver! Acumul
 > Temporada 6 - 10 episódios.  <br/>
 > Temporada 7 - 07 episódios.  <br/>
 > Temporada 8 - 06 episódios. <br/> <br/>
-> 	SELECT DISTINCT Season AS Tempora, COUNT(Episode) AS Quantidades_de_episódios FROM episodios GROUP BY Season;
+> 	SELECT DISTINCT Season AS Tempora, <br/>
+COUNT(Episode) AS Quantidades_de_episódios FROM episodios GROUP BY Season;
 ---------------------------
  <br/>
 
