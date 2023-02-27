@@ -58,7 +58,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 ⇨ Qual foi a melhor temporada e a pior?
 > A melhor foi a temporada 4 nota 95,5.
-> A pior foi a temporada 8 nota 64,5.<br/>
+> A pior foi a temporada 8 nota 64,5.<br/> <br/>
  	SELECT Season AS Temporada, 
 	Episode AS Episódio, 
 	Title AS Título, 
@@ -94,7 +94,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     WHERE Duration = (SELECT MAX(Duration) FROM episodios);
 
 
-- DASHBOARD 
+- DASHBOARD  <br/> <br/>
 ⇨ ![texto](./Dashboard.png)
 
 
