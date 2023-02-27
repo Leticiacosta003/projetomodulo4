@@ -18,7 +18,7 @@ CONTEXTO ⇨ Temos um problema e precisaremos da sua ajuda para resolver! Acumul
 
 ⇨ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs que apresenta dados sobre os episódios e temporadas da série Game of Thrones. Durante o Brainstorm sobre perguntas que podem ser respondidas pelos dados selecionamos as seguintes perguntas: 
 <br/>
----------------
+
 - PERGUNTAS!
 
 ⇨ Quais personagens estrelaram na temporada 1?
