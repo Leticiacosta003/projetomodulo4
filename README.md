@@ -23,7 +23,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 ⇨ Quais personagens estrelaram na temporada 1?
 > Eddard "Ned" Stark (ator: Sean Bean)
 > Nicolaj Coster 
-> Mark Addy <br/>
+> Mark Addy <br/> <br/>
 > 	SELECT Season AS Temporada, 
     Episode AS Episodios, 
     Title AS Titulo, 
@@ -36,7 +36,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 
 ⇨ Qual episódio com a maior avaliação dos critico?
-> 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 <br/>
+> 1° lugar ( The Long Night ), temporada 8 - episódio 3 - pontuação 7,1 <br/> <br/>
 > 	SELECT Season AS Temporada, 
 	Episode AS Episódio, 
 	Title AS Título, 
@@ -76,7 +76,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 
 ⇨ Qual episodio tem mais visibilidade?
-> "The Iron Throne" 13.1 de pontuação. <br/>
+> "The Iron Throne" 13.1 de pontuação. <br/> <br/>
 > SELECT Season AS Temporada,
     Episode AS Episódio,
     Title AS Título,
@@ -85,7 +85,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     WHERE Views = (SELECT MAX(Views) FROM episodios);
 
 ⇨ Qual episódios com maior duração?
-> 8° temporada -  episódio 3 , duração 1h e 22min <br/>
+> 8° temporada -  episódio 3 , duração 1h e 22min <br/> <br/>
 > SELECT Season AS Temporada, 
     Episode AS Episódio, 
     Title AS Título, 
