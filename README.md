@@ -43,7 +43,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 	Critics_reviews AS Avaliação
     FROM episodios
     WHERE Critics_reviews = (SELECT MAX(Critics_reviews) FROM episodios);
-
+-----------------------
  <br/> <br/>
 ⇨ Qual a quantidade de episódios por temporadas?
 > Temporada 1 - 10 episódios.  <br/>
@@ -55,7 +55,9 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 > Temporada 7 - 07 episódios.  <br/>
 > Temporada 8 - 06 episódios. <br/> <br/>
 > 	SELECT DISTINCT Season AS Tempora, COUNT(Episode) AS Quantidades_de_episódios FROM episodios GROUP BY Season;
+---------------------------
  <br/> <br/>
+
 ⇨ Qual foi a melhor temporada e a pior?
 > A melhor foi a temporada 4 nota 95,5.
 > A pior foi a temporada 8 nota 64,5.<br/> <br/>
@@ -72,7 +74,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 	Rating AS Avaliação
     FROM episodios
     WHERE Rating = (SELECT MIN(Rating) FROM episodios);
-
+-------------------------
  <br/> <br/>
 
 ⇨ Qual episodio tem mais visibilidade?
@@ -83,7 +85,9 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     Views AS Visualizações
     FROM episodios
     WHERE Views = (SELECT MAX(Views) FROM episodios);
+--------------------------
  <br/> <br/>
+
 ⇨ Qual episódios com maior duração?
 > 8° temporada -  episódio 3 , duração 1h e 22min <br/> <br/>
 > SELECT Season AS Temporada, 
@@ -93,7 +97,7 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
     FROM episodios 
     WHERE Duration = (SELECT MAX(Duration) FROM episodios);
 
-
+-----------------------
 - DASHBOARD  <br/> <br/>
 ⇨ ![texto](./Dashboard.png)
 
