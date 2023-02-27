@@ -46,14 +46,14 @@ A partir dos dados fornecidos optamos por utilizar a tabela GOT_episodes_v4.cvs 
 
 
 ⇨ Qual a quantidade de episódios por temporadas?
-> Temporada 1 - 10 episódios. 
-> Temporada 2 - 10 episódios. 
-> Temporada 3 - 10 episódios. 
-> Temporada 4 - 10 episódios. 
-> Temporada 5 - 10 episódios. 
-> Temporada 6 - 10 episódios. 
-> Temporada 7 - 07 episódios. 
-> Temporada 8 - 06 episódios. <br/>
+> Temporada 1 - 10 episódios.  <br/>
+> Temporada 2 - 10 episódios.  <br/>
+> Temporada 3 - 10 episódios.  <br/>
+> Temporada 4 - 10 episódios.  <br/>
+> Temporada 5 - 10 episódios.  <br/>
+> Temporada 6 - 10 episódios.  <br/>
+> Temporada 7 - 07 episódios.  <br/>
+> Temporada 8 - 06 episódios. <br/> <br/>
 > 	SELECT DISTINCT Season AS Tempora, COUNT(Episode) AS Quantidades_de_episódios FROM episodios GROUP BY Season;
 
 ⇨ Qual foi a melhor temporada e a pior?
